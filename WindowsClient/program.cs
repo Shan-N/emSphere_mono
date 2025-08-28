@@ -46,7 +46,7 @@ class Program
     var message = it.GetProperty("message").GetString() ?? "";
 
     new ToastContentBuilder()
-        .AddAppLogoOverride(new Uri(Path.Combine(AppContext.BaseDirectory, "emSphereLogo.png")), ToastGenericAppLogoCrop.Circle)
+        .AddAppLogoOverride(new Uri(Path.Combine(AppContext.BaseDirectory, "eMPower_logo.png")), ToastGenericAppLogoCrop.Circle)
         .AddText(title, hintMaxLines: 1)
         .AddText(message)
         .AddText("eMSphere Notifications", hintStyle: AdaptiveTextStyle.CaptionSubtle)
